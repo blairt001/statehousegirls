@@ -38,7 +38,8 @@
 <body>
 <h3 align="Center"><font color="white"><u><font size="10px;">Students Results Panel</font></u><font color="orange"></font></font></h3>
 <div id="blairman">
-<a href="admin/index1.php" class="link"><font color="orange"><font size="3px;"><b>STAFF LOGIN</b></font></font></a>			
+<a href="admin/index1.php" class="link"><font color="orange"><font size="3px;"><b>STAFF LOGIN</b></font></font></a>	
+<a href="admin/index3.php" class="link"><font color="orange"><font size="3px;"><b>PARENTS LOGIN</b></font></font></a>			
 </div>
 <br />
 <br />

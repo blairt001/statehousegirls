@@ -210,12 +210,11 @@ require('config.php');
 		    global $fileUpload;
 			global $fileUplaod_name;
 			global $fileUpload_type;
-			global $class;
 			global $fileUpload_size;
 
 	// $fileUpload;
 	$output='';
-	if(isset($_POST['class']) && isset($_POST['desc'])){	
+	if(isset($_POST['form']) && isset($_POST['desc'])){	
 	    $form=$_POST['form'];
 		$desc=$_POST['desc'];
 		$fileUplaod_name = $_FILES['fileUpload']['name'];
@@ -242,13 +241,7 @@ require('config.php');
  	    else
  	    {
  		$output.='File not saved'.mysqli_error($conn);
- 	    }
-		
-		
-  
-	
-
-		
+ 	    }		
 }
 else
 {
@@ -316,21 +309,6 @@ var termid="";
 				}
 	});	
 });
-$(document).on('change','#form', function(){ 
- 	var form=$('#form').val();
-    
- 	$.ajax({
-			url:"load_class1.php",
-			method:"POST",
-			data:{form},
-			dataType:"text",
-			success:function(data){
-				$('#class').html(data);
-				
-			}
-		});
- });
-	
 	
 </script>
 			
