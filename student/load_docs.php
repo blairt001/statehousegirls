@@ -236,8 +236,8 @@ case 'Form 1':
 	// $fileUpload;
 	$output='';
 	//$select="SELECT documents.Sno,documents.Description,documents.Title,documents.Type,documents.class FROM documents join classes on documents.class=classes.classid where class like '%".$Class."' order by Sno asc";
-    $select="SELECT * FROM documents Join classes on documents.class=classes.classid or documents.class=classes.classname where form=1 order by Sno asc";
-	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Stream</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
+    $select="SELECT * FROM documents where form=1 order by Sno asc";
+	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
 
 	$result=mysqli_query($conn,$select);
  	if(mysqli_num_rows($result)>0)
@@ -246,9 +246,8 @@ case 'Form 1':
 			$output.='<tr>
 			<td bgcolor="#ffdca8">'.$row["Sno"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Description"].'</td>
-			<td bgcolor="#ffdca8">'.$row["Title"].'</td>
-			<td bgcolor="#ffdca8">'.$row["classname"].'</td>	
-            <td bgcolor="#ffdca8">'.$row["form"].'</td>	             		
+			<td bgcolor="#ffdca8">'.$row["Title"].'</td>	
+       <td bgcolor="#ffdca8">'.$row["form"].'</td>	             		
 			<td bgcolor="#ffdca8"><a target="_blank" href="download.php?sno='.$row["Sno"].'">Download Here</a></td>
 			</tr>';
 		}	
@@ -271,8 +270,8 @@ case 'Form 2':
 	// $fileUpload;
 	$output='';
 	//$select="SELECT documents.Sno,documents.Description,documents.Title,documents.Type,documents.class FROM documents join classes on documents.class=classes.classid where class like '%".$Class."' order by Sno asc";
-    $select="SELECT * FROM documents Join classes on documents.class=classes.classid or documents.class=classes.classname where form=2 order by Sno asc";
-	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Stream</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
+    $select="SELECT * FROM documents where form=2 order by Sno asc";
+	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
 
 	$result=mysqli_query($conn,$select);
  	if(mysqli_num_rows($result)>0)
@@ -282,7 +281,6 @@ case 'Form 2':
 			<td bgcolor="#ffdca8">'.$row["Sno"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Description"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Title"].'</td>
-			<td bgcolor="#ffdca8">'.$row["classname"].'</td>
             <td bgcolor="#ffdca8">'.$row["form"].'</td>			
 			<td bgcolor="#ffdca8"><a target="_blank" href="download.php?sno='.$row["Sno"].'">Download Here</a></td>
 			</tr>';
@@ -307,8 +305,8 @@ case 'Form 3':
 	// $fileUpload;
 	$output='';
 	//$select="SELECT documents.Sno,documents.Description,documents.Title,documents.Type,documents.class FROM documents join classes on documents.class=classes.classid where class like '%".$Class."' order by Sno asc";
-    $select="SELECT * FROM documents Join classes on documents.class=classes.classid or documents.class=classes.classname where form=3 order by Sno asc";
-	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Stream</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
+    $select="SELECT * FROM documents where form=3 order by Sno asc";
+	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
 
 	$result=mysqli_query($conn,$select);
  	if(mysqli_num_rows($result)>0)
@@ -318,8 +316,7 @@ case 'Form 3':
 			<td bgcolor="#ffdca8">'.$row["Sno"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Description"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Title"].'</td>
-			<td bgcolor="#ffdca8">'.$row["classname"].'</td>
-            <td bgcolor="#ffdca8">'.$row["form"].'</td>			
+      <td bgcolor="#ffdca8">'.$row["form"].'</td>			
 			<td bgcolor="#ffdca8"><a target="_blank" href="download.php?sno='.$row["Sno"].'">Download Here</a></td>
 			</tr>';
 		}	
@@ -341,8 +338,8 @@ case 'Form 4':
 	// $fileUpload;
       $output='';
 	//$select="SELECT documents.Sno,documents.Description,documents.Title,documents.Type,documents.class FROM documents join classes on documents.class=classes.classid where class like '%".$Class."' order by Sno asc";
-    $select="SELECT * FROM documents Join classes on documents.class=classes.classid or documents.class=classes.classname where form=4 order by Sno asc";
-	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Stream</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
+    $select="SELECT * FROM documents form=4 order by Sno asc";
+	$output.='<table border="1"><th bgcolor="#ff9900">Sno</th><th bgcolor="#ff9900">Description</th><th bgcolor="#ff9900">Title</th><th bgcolor="#ff9900">Form</th><th bgcolor="#ff9900">File</th>';
 
 	$result=mysqli_query($conn,$select);
  	if(mysqli_num_rows($result)>0)
@@ -351,9 +348,8 @@ case 'Form 4':
 			$output.='<tr>
 			<td bgcolor="#ffdca8">'.$row["Sno"].'</td>
 			<td bgcolor="#ffdca8">'.$row["Description"].'</td>
-			<td bgcolor="#ffdca8">'.$row["Title"].'</td>
-			<td bgcolor="#ffdca8">'.$row["classname"].'</td>	
-            <td bgcolor="#ffdca8">'.$row["form"].'</td>				
+			<td bgcolor="#ffdca8">'.$row["Title"].'</td>	
+      <td bgcolor="#ffdca8">'.$row["form"].'</td>				
 			<td bgcolor="#ffdca8"><a target="_blank" href="download.php?sno='.$row["Sno"].'">Download Here</a></td>
 			</tr>';
 		}	

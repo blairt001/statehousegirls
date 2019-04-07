@@ -19,6 +19,10 @@
 		{
 			float: right;
 		}
+		#back
+		{
+			float: right;
+		}
 		a.link
         {
 	border-style : solid;
@@ -38,6 +42,9 @@
 <body>
 <h3 align="Center"><font color="white"><u><font size="10px;">Parents Login</font></u><font color="orange"></font></font></h3>
 <br />
+<div id="back">
+	<a href="index.php" class="link"><font color="black"><font size="3px;"><b>BACK</b></font></font></a>			
+	</div>
 <br />
 <br />
 <br />

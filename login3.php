@@ -59,7 +59,7 @@ if(mysqli_num_rows($result2))
 				?>
 				<script>
 				window.alert("Login Failed.Try Again.\nPlease Enter Correct Username and password !!");
-				window.location="index.php";
+				window.location="index3.php";
 				var errormsg=document.getElementById("login-error");
 				errormsg .style.display='block';
 				errormsg .style.color='red';

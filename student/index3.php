@@ -88,7 +88,7 @@ a.link:hover
 			&nbsp;
 			&nbsp;
 			&nbsp;
-			<li><a href="bdocs.php" class="link"><font size="3px;"><font color="blue"><b>Assignments</b></font></font></a></li>
+			<li><a href="bdocs3.php" class="link"><font size="3px;"><font color="blue"><b>Assignments</b></font></font></a></li>
 			&nbsp;
 			&nbsp;		
             &nbsp;
@@ -103,7 +103,7 @@ a.link:hover
 <center><h1><font color="green"><u>Your Child Details are:</u></font></h1><?php
 echo '<h3><font color="blue">Name:</font>'. $_COOKIE['StudentName']."</h3>"; 
 echo  '<h3><font color="blue">Admno / Index No:</font>'.$_COOKIE['AdmnNo'].'</h3>';
-echo '<h3><font color="blue">Class:</font>'. $_COOKIE['Class']."</h3>"; 
+echo '<h3><font color="blue">Class:</font>Form'. $_COOKIE['Class']."</h3>"; 
 echo  '<h3><font color="blue">Entry Marks:</font>'.$_COOKIE['EntryMark'].'</h3>';
 echo  '<h3><font color="blue">Current Year: <font color="black">2019</font></font></h3>';
 

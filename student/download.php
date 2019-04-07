@@ -12,11 +12,14 @@ require('config.php');
 	$result=mysqli_query($conn,$select);
  	if(mysqli_num_rows($result)==1)
 	{
-
+		
 		while ($row=mysqli_fetch_array($result)) {
 			$fileType=$row["Type"];
 			$fileContent=$row["Data"];
-			header("Content-type: $fileType");
+			$fileName=$row["Title"];
+			// header("Content-type: $fileName");
+			header('Content-Disposition: attachment; filename="' . $fileName . '"');
+
 			echo $fileContent;
 		}	
 	}
