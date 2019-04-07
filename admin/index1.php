@@ -8,8 +8,7 @@
 			$password = trim(md5($_POST['password']));	
 				
 			// sending query		
-			$result = mysqli_query($conn,"SELECT * FROM staff WHERE username = '$username' AND password = 
-						   '$password'");
+			$result = mysqli_query($conn,"SELECT * FROM staff WHERE username = '$username' AND password = '$password'");
 						   
 			if (!$result) 
 			{

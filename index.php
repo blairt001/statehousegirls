@@ -19,6 +19,31 @@ Author: Tony Okoth
         }
     </script>
 
+    <style type="text/css">
+		
+		body{
+			height: 90%;
+		}
+		#blairman
+		{
+			float: right;
+		}
+		a.link
+        {
+	border-style : solid;
+	border-width: 1px 1px 1px 1px;
+	text-decoration: none;
+	padding: 12px;
+	border-color: #000000;
+	border-radius: 5px;
+	background-color: white
+       }
+    a.link:hover
+    {
+	background-color: lime;
+   }
+	</style>
+
 	<!-- Custom Theme files -->
 	<link href="homestyle/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="homestyle/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -30,11 +55,15 @@ Author: Tony Okoth
 
 </head>
 <body>
-
 <!-- main -->
 <div class="w3layouts-main"> 
 	<div class="bg-layer">
-		<h1>Student Login</h1>
+		<h1>Students Login</h1>
+	<div id="blairman">
+		<a href="index3.php" class="link"><font color="orange"><font size="3px;"><b>PARENTS LOGIN</b></font></font></a>			
+   </div>
+   <div id="blairman">
+       <a href="admin/index1.php" class="link"><font color="orange"><font size="3px;"><b>STAFF LOGIN</b></font></font></a></div>
 		<div class="header-main">
 			<div class="main-icon">
 				<span class="fa fa-eercast"></span>
