@@ -2,6 +2,9 @@
 This site enables all the statehouse girls students to access their end term results online.
 Admin functionality, staff and parents access is also included in the project.
 
+## Project url
+> **[Click Here](http://statehousegirls.ac.ke/myresults/)**
+
 ## This is the phase2 redesign of the statehouse girls students result panel based on HTML, CSS, PHP and MySQL.
 
 ## Precedure for setting it up
