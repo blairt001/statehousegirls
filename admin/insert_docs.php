@@ -1,5 +1,4 @@
-<?php
-		
+<?php		
 require('config.php');
 		global $fileUpload;
 			global $fileUplaod_name;

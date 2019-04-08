@@ -1,7 +1,8 @@
- <!DOCTYPE html>
 <?php 
+    session_start();
 	require('config.php');
 ?>	
+ <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">

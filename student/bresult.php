@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="css/bootstrap-custom.css">
-<title>https://www.statehousegirls.ac.ke/</title>
 <link rel="stylesheet" type="text/css" href="style/mystyle_login.css">
 <style>
 body

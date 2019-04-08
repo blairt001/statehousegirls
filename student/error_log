@@ -1,0 +1,14 @@
+[07-Apr-2019 19:41:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:42:51 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:42:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:42:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:43:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:43:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:43:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:43:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:44:13 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:48:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:52:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:54:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:55:27 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2
+[07-Apr-2019 19:58:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/statehou/public_html/myresults/student/config.php on line 2

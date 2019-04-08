@@ -1,4 +1,6 @@
 <?php
+session_start();
+ob_start();
 require('config.php');
 if (loggedin())
 {
@@ -92,8 +94,6 @@ if(mysqli_num_rows($result2))
 				header("Location:student/index3.php");
 			    exit();	
 			}
- 
-
 else
 {
 ?>

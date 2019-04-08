@@ -1,10 +1,11 @@
 <!--
 Author: Tony Okoth
+Contact: blairtony2014@gmail.com
 -->
 <!DOCTYPE html>
 <html>
 <head>
-<title>https://www.statehousegirls.com/Myresults/index.php</title>
+<title>https://www.statehousegirls.com/myresults/index.php</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="" />
@@ -18,7 +19,7 @@ Author: Tony Okoth
             window.scrollTo(0, 1);
         }
     </script>
-
+ 
     <style type="text/css">
 		
 		body{
@@ -59,7 +60,7 @@ Author: Tony Okoth
 <div class="w3layouts-main"> 
 	<div class="bg-layer">
 		<h1>Students Login</h1>
-	<div id="blairman">
+	   <div id="blairman">
 		<a href="index3.php" class="link"><font color="orange"><font size="3px;"><b>PARENTS LOGIN</b></font></font></a>			
    </div>
    <div id="blairman">
@@ -89,7 +90,7 @@ Author: Tony Okoth
 		
 		<!-- copyright -->
 		<div class="copyright">
-			<p>© 2019 Statehouse Girls . All rights reserved | Design by <a href="http://www.facebook.com/blairt94" target="_blank">Tony</a></p>
+			<p>© 2019 Statehouse Girls . All rights reserved | Design by <a href="http://www.facebook.com/blairt94" target="_blank"><font color="red">Tony</font></a></p>
 		</div>
 		<!-- //copyright --> 
 	</div>

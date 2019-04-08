@@ -2,8 +2,6 @@
 <?php 
 	require('config.php');
 	$AdmnNo=$_POST['admno'];
-
-
 ?>	
 <html lang="en">
 	<head>
@@ -27,7 +25,7 @@
 	float: right;
 }
 </style>
-<center><h1><u><font color="blue">Your Term 1, 2019 Results</font></u></h1></center>
+<center><h1><u><font color="blue">Term 1, 2019 Results</font></u></h1></center>
 <div id="wrap">
 	<div class="container">
 		
@@ -136,7 +134,7 @@
 <br />
 <br />
 
-	<center><h1><u><font color="blue">Your Term 2, 2019 Results</font></u></h1></center>
+	<center><h1><u><font color="blue">Term 2, 2019 Results</font></u></h1></center>
 		<div id="wrap">
 	<div class="container">
 		
@@ -247,7 +245,7 @@
 <br />
 			
 				
-		<center><h1><u><font color="blue">Your Term 3, 2019 Results</font></u></h1></center>	
+		<center><h1><u><font color="blue">Term 3, 2019 Results</font></u></h1></center>	
 
 	<div id="wrap">
 	<div class="container">

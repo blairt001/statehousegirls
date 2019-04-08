@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,7 +49,7 @@
 <br />
 <br />
 <br />
-<h3 align="Center"><font color="orange"><u><i><font size="5px;">Login To Access Your Child Results and Download the Assignments</font></i></u><font color="orange"></font></font></h3>
+<h3 align="Center"><font color="orange"><u><i><font size="5px;">Login To Access Your Child Results and Download for her the Assignments</font></i></u><font color="orange"></font></font></h3>
 
 <div class="div-login">
 <center><form method="POST" action="login3.php">

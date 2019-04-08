@@ -1,7 +1,6 @@
 <?php
 require('config.php');
 ?>
-
 <!DOCTYPE html>
 <HTML>
 <head>

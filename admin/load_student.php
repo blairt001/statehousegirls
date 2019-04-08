@@ -1,7 +1,8 @@
 <?php
 require('config.php');
 	$output='';
-	$query="SELECT * FROM student WHERE AdmnNo= "$AdmnNo"";
+	// this portion is nolonger being used
+	// $query="SELECT * FROM student WHERE AdmnNo= "$AdmnNo"";
 	$result=mysqli_query($conn,$query) or die(mysqli_error($conn));
 	$output.='
 	<div class="table-responsible">

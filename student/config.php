@@ -1,10 +1,9 @@
 <?php
-//ssession
+session_start();
 $server="localhost";
 $user="root";
 $pass="1234";
 $dbname="statehouse";
-session_start();
 $conn=mysqli_connect($server,$user,$pass);
 	if(!$conn)
 		{
@@ -34,5 +33,4 @@ function loggedin()
 	 }		 
 	  
   }
-
 ?>

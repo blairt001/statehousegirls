@@ -4,7 +4,6 @@ $user="root";
 $pass="1234";
 $dbname="statehouse";
 $conn=mysqli_connect($server,$user,$pass);
-$conn=mysqli_connect($server,$user,$pass);
 	if(!$conn)
 		{
 			echo "server conn failed";
@@ -33,5 +32,4 @@ function loggedin()
 	 }		 
 	  
   }
-
 ?>

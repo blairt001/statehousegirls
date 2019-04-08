@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php 
+    session_start();
 	require('config.php');
 ?>	
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -49,7 +50,6 @@ a.link:hover
 			<a href="teachers.php"class="link"><font color="red"><font size="3px;"><b>BACK</b></font></font></a>
 			</div>
 <?php 
-     session_start();
 	 $id=$_SESSION['userid'];
      $query = "SELECT*FROM staff where id='$id'";
       $result = mysqli_query($conn,$query);

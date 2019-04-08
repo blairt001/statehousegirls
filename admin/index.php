@@ -1,4 +1,7 @@
 <?php 
+session_start();
+ob_start();
+        
 		require ("config.php");
 		$error = "";
 
@@ -33,18 +36,15 @@
 					<script>
 					window.alert("Username and Password Accepted. Click OK to proceed!");
 					<?php			
-		            session_start();					
 					$_SESSION['is']['login']    = TRUE;
 					$_SESSION['is']['username'] = $_POST['username'];
 					$_SESSION['userid']=$row['admin_id'];
 					$_SESSION['logged']="true";
 					$session = "1";	
-					header("location:login.php?user=$username");
-			?>
+					header("Location:login.php?user=$username");
+					?>
 			</script>
 					<?php
-							
-							 	
 				}
 		}
 		?>

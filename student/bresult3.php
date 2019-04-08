@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="css/bootstrap-custom.css">
-<title>https://www.statehousegirls.ac.ke/</title>
 <link rel="stylesheet" type="text/css" href="style/mystyle_login.css">
 <style>
 body
@@ -63,7 +62,7 @@ function blair()
 <center><h1><u><font size="10px;">Class Selection</font></u></h1></center>
 <br />
 <br />
-<center><font color="green"><h2><font size="10px;">Please do the required.Select your class accordingly:</font><font color="red"></font></h2></center>
+<center><font color="green"><h2><font size="10px;">Please do the required.Select your doughter's class accordingly:</font><font color="red"></font></h2></center>
 </div>
 <br />
 <br />

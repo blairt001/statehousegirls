@@ -1,4 +1,6 @@
 <?php
+session_start();
+ob_start();
 require('config.php');
 if (loggedin())
 {
@@ -66,7 +68,6 @@ if(mysqli_num_rows($result2))
 				errormsg.style.border="1px solid red";
 				errormsg.textContent="Admno or Index Number is Invalid!";
 				</script>
-				
 				<?php
 				}	/*$db_password=$row['password'];
 				if($password==$db_password)*/
@@ -81,7 +82,6 @@ if(mysqli_num_rows($result2))
 						setcookie("Class",$Class);
 						setcookie("EntryMark",$EntryMark);
 						$_SESSION['AdmnNo']=$AdmnNo;
-						
 					?>
 			<script>
 				window.alert("Login Succesiful!!");
@@ -92,8 +92,6 @@ if(mysqli_num_rows($result2))
 				header("Location:student/index.php");
 			    exit();	
 			}
- 
-
 else
 {
 ?>
@@ -107,9 +105,7 @@ else
 	errormsg.textContent="Admno or Index Number is not registered!";
 	
 	</script>
-	
-	<?php
+		<?php
 }
  }
-
 ?>

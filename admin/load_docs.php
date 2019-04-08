@@ -1,5 +1,4 @@
-<?php
-		
+<?php		
 require('config.php');
 	$output='';
 		$select="SELECT * FROM documents order by Sno asc";

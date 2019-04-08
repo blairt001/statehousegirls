@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php 
+    session_start();
 	require('config.php');
-?>	
+?>
+<!DOCTYPE html>	
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -43,7 +44,6 @@ a.link:hover
 }
 </style>
 				<?php
-			session_start();
 			$admin_id=$_SESSION['userid'];
 	        $result = mysqli_query($conn,"SELECT * FROM admin WHERE admin_id='$admin_id'") or die(mysqli_error($conn));
 	        $test = mysqli_fetch_array($result);

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php 
+	session_start();
 	require('config.php');
 ?>	
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -41,15 +42,11 @@ a.link:hover
 	background-color: lime;
 }
 </style>
-	
-	
 	<?php
-			session_start();
 			$id=$_SESSION['userid'];
 	        $result = mysqli_query($conn,"SELECT * FROM staff WHERE id='$id'") or die(mysqli_error($conn));
 	        $test = mysqli_fetch_array($result);
-			?>
-				
+			?>		
 			<center><a  href="#"><font size="5px;"><u><font color="red"><b>STAFF PANEL</b></font></u></font></a></center>
 			<div class="blair">
 			<a href="docs1.php" class="link"><font size="3px;"><font color="blue"><b>UPLOAD ASSIGNMENTS</b></font></font></a>

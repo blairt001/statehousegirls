@@ -1,7 +1,10 @@
-<!DOCTYPE html>
 <?php 
+// Author: Tony Okoth
+// Contact: <blairtony2014@gmail class="com"></blairtony2014@gmail>
+    session_start();
 	require('config.php');
 ?>	
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -42,14 +45,11 @@ a.link:hover
 	background-color: lime;
 }
 </style>
-				<?php
-			session_start();
+			<?php
 			$admin_id=$_SESSION['userid'];
 	        $result = mysqli_query($conn,"SELECT * FROM admin WHERE admin_id='$admin_id'") or die(mysqli_error($conn));
 	        $test = mysqli_fetch_array($result);
-			?>
-			
-				
+			?>	
 			<center><a  href="#"><font size="5px;"><u><font color="red"><b>ADMINISTRATOR PANEL</b></font></u></font></a></center>
 			<br />
 			<br />
